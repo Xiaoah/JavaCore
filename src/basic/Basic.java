@@ -65,7 +65,17 @@ public class Basic {
 			System.out.println(i);
 		}
 */
-
+		
+		int d = 6;
+		char c = (char)d;
+		//String sc = "|";
+		String sc = String.valueOf(c);
+		String s = "sssssss"+c+"aaaaaa";
+		System.out.println(c);
+		String[] aa = s.split(sc);
+		System.out.println(aa[0]);
+		System.out.println(aa[1]);
+		
 	}
 
 }
